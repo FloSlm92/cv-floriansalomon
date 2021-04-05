@@ -1,0 +1,251 @@
+h1, h2 {
+ font-family: 'Crimson Text', serif;
+ color: #317497;
+}
+
+h1 {
+  font-size : 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #6B72E1;
+}
+
+p{ 
+font-family: 'Ubuntu Condensed', sans-serif;
+font-size: 18px;
+text-align: center;
+}
+
+.allCV {
+  margin: 20px auto; 
+}
+
+.banner{
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 600px;
+  box-shadow: 0px 10px 20px rgba(0.25,0.25,0.25,0.25);
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.banner p{
+  font-size: 25px;
+}
+
+.photoCV {
+  border-radius: 100%;
+}
+
+.bouton {
+  background-color: rgb(230, 230, 230);;
+  color: white;
+  padding: 15px 10px;
+  border-radius: 4px;
+  width: 150px;
+  display: block;
+  margin : auto;
+}
+
+.bouton:hover {
+  background-color: black;
+  color: white;
+}
+
+.intro{
+  text-align: center;
+  background-color: #317497;
+  padding: 1px;
+  box-shadow: 0px 20px 20px rgba(0.25,0.25,0.25,0.25);
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.XP{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 10px auto;
+  text-align: center;
+  column-count: 2;
+  column-gap: 500px;
+  column-width: 50px;
+  column-rule: 1px solid rgb(75, 70, 74);
+}
+
+.FORMATION{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 10px auto;
+  text-align: center;
+  column-count: 2;
+  column-gap: 500px;
+  column-width: 50px;
+  column-rule: 1px solid rgb(75, 70, 74);
+}
+
+.FORMATION h2{
+font-size: 20px
+}
+
+.COMPETENCES{
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 10px auto;
+  text-align: center;
+  column-count: 2;
+  column-gap: 500px;
+  column-width: 50px;
+  column-rule: 1px solid rgb(75, 70, 74);
+}
+
+.reseaux {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 10px auto;
+  text-align: center;
+  list-style: none;
+}
+
+.reseaux {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.reseaux li {
+  display: inline;
+  padding: 10px;
+}
+.reseaux i {
+  font-size: 50px;
+  color: rgb(210, 210, 210);
+}
+.reseaux i:hover {
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    width: 800px;
+  }
+  .intro {
+    width: 800px;
+  }
+  .XP {
+    width: 800px;
+  }
+  .reseau {
+    width: 800px;
+  }
+  .COMPETENCES{
+    width: 800px;
+  }
+  .FORMATION {
+    width: 800px;
+  }
+  .LOGO {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 960px) {
+  .banner {
+    width: 700px;
+  }
+  .intro {
+    width: 700px;
+  }
+  .XP {
+    width: 700px;
+  }
+  .reseau {
+    width: 700px;
+  }
+  .COMPETENCES{
+    width: 700px;
+  }
+  .FORMATION {
+    width: 700px;
+  }
+  .LOGO {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .banner {
+    width: 500px;
+  }
+  .intro {
+    width: 500px;
+  }
+  .XP {
+    width: 500px;
+  }
+  .reseau {
+    width: 500px;
+  }
+  .COMPETENCES{
+    width: 500px;
+  }
+  .FORMATION {
+    width: 500px;
+  }
+  .LOGO {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .banner {
+    width: 300px;
+  }
+  .intro {
+    width: 300px;
+  }
+  .XP {
+    width: 300px;
+  }
+  .reseau {
+    width: 300px;
+  }
+  .COMPETENCES{
+    width: 300px;
+  }
+  .FORMATION {
+    width: 300px;
+  }
+  .LOGO {
+    max-width: 100%;
+    height: auto;
+  }
+}
