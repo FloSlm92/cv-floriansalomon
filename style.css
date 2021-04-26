@@ -150,6 +150,7 @@ font-size: 20px
   color: black;
 }
 
+RESPONSIVE
 @media (max-width: 1200px) {
   .banner {
     width: 800px;
@@ -175,6 +176,31 @@ font-size: 20px
   }
 }
 
+@media (max-width: 1100px) {
+  .banner {
+    width: 750px;
+  }
+  .intro {
+    width: 750px;
+  }
+  .XP {
+    width: 750px;
+  }
+  .reseau {
+    width: 750px;
+  }
+  .COMPETENCES{
+    width: 750px;
+  }
+  .FORMATION {
+    width: 750px;
+  }
+  .LOGO {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 @media (max-width: 960px) {
   .banner {
     width: 700px;
@@ -193,6 +219,31 @@ font-size: 20px
   }
   .FORMATION {
     width: 700px;
+  }
+  .LOGO {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .banner {
+    width: 600px;
+  }
+  .intro {
+    width: 600px;
+  }
+  .XP {
+    width: 600px;
+  }
+  .reseau {
+    width: 600px;
+  }
+  .COMPETENCES{
+    width: 600px;
+  }
+  .FORMATION {
+    width: 600px;
   }
   .LOGO {
     max-width: 100%;
